@@ -1,0 +1,17 @@
+/* styles.css */
+
+.odd-number 
+{
+    background-color: rgba(211, 0, 74, 0.512); 
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+#blue 
+{color:rgb(15, 15, 179); font-size: 36px;
+}
+.twenty-four{
+    font-size: 24px;
+}
+
+#four {
+    background-color: chartreuse; font-size: 24px; font-weight: 700;
+}
