@@ -1,0 +1,9 @@
+/* styles.css */
+
+.avatar.proportioned {
+    width: 300px; height: inherit;
+}
+
+.avatar.distorted {
+    width: 200px; height: calc(2*200px)
+}
