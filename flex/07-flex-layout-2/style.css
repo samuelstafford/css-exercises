@@ -28,52 +28,73 @@ body {
   border-radius: 4px;
 }
 
-/* sam solution */
+/* sam solution *********************************************************************/
 
 
 body {
-  
+    /*same as in solution*/
   display: flex;
   flex-direction: column;
   
 }
 
 .content {
+  /*same as in solution*/
   display: flex;
   flex:1;
   
 }
 .sidebar {
-display:flex;
+    /*same as in solution*/
+flex-shrink: 0;
 padding: 16px;
 
 }
 
 .cardview {
+    /*same as .container in solution*/
   display: flex;
   flex-wrap: wrap;
-  padding: 32px;
-  
-  
+  padding: 32px;  
 }
 
 .card {
-  display: flex;
+      /*same as in solution*/
   width: 300px;
-  margin:5px;
-  padding: 5px;
+  margin:16px;
+  padding: 16px;
   /* flex-basis: 200px;*/
-  flex-grow:1;
+  /*flex-grow:1;*/
 }
 
 ul {
-  display:flex;
-  flex-direction: column;
+       /*same as in solution*/
   list-style: none;
+  margin: 0px;
+  padding: 0px;
   
 }
 
-footer {
+li {
+         /*same as in solution*/
+  margin-bottom: 16px;
+}
+a {
+         /*same as in solution*/
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.footer {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  font-size: 32px;
+  font-weight: 900;
 }
