@@ -27,3 +27,53 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* sam solution */
+
+
+body {
+  
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.content {
+  display: flex;
+  flex:1;
+  
+}
+.sidebar {
+display:flex;
+padding: 16px;
+
+}
+
+.cardview {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+  
+  
+}
+
+.card {
+  display: flex;
+  width: 300px;
+  margin:5px;
+  padding: 5px;
+  /* flex-basis: 200px;*/
+  flex-grow:1;
+}
+
+ul {
+  display:flex;
+  flex-direction: column;
+  list-style: none;
+  
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
